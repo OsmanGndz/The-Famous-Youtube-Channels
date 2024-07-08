@@ -1,0 +1,93 @@
+body {
+    background-image: url('https://hougumlaw.com/wp-content/uploads/2016/05/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#map-container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    height: 600px;
+    
+}
+
+#map {
+    height: 100%;
+}
+
+.pie-area {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    height: 300px;
+    width: 800px;
+}
+
+.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(82, 76, 76); 
+    color: white;
+    border-radius: 8px;
+    border-color: black;
+    pointer-events: none;
+    width: 200px; 
+}
+.tooltip ul {
+    list-style-type: none;
+    background: rgb(79, 76, 76);
+    margin: 0;
+    padding: 4px;
+    border-radius: 4px;
+    background: lightgray; /* Metin arka planını açık gri yapın */
+}
+
+.tooltip_pie {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(78, 75, 75); 
+    color: white;
+    border-radius: 8px;
+    border-color: black;
+    pointer-events: none;
+    width: 200px; 
+}
+.tooltip_pie ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    border-radius: 4px;
+    background: rgb(73, 67, 67); /* Metin arka planını açık gri yapın */
+}
+
+.tooltip_map {
+    position: absolute;
+    text-align: center;
+    width: 60px;
+    height: 28px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: rgb(78, 75, 75); 
+    color: white;
+    border-radius: 8px;
+    border-color: black;
+    pointer-events: none;
+    width: 200px; 
+}
+.tooltip_map ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    border-radius: 4px;
+    background: rgb(73, 67, 67); /* Metin arka planını açık gri yapın */
+}
